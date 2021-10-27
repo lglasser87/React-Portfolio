@@ -51,7 +51,7 @@ const PortfolioModel = ({Payload,hideDetailItem}) => {
                                 <i className="fab fa-fw fa-github"></i>
                             </a>
                                     <a className="btn btn-outline-light btn-social mx-1" href={Drive} target="_blank" rel="noopener noreferrer">
-                                <i className="fas fa-google-drive"></i>
+                                <i className="fab fa-fw fa-google-drive"></i>
                             </a>
                             <a className="btn btn-outline-light btn-social mx-1" href={heroku} target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-link"></i>
