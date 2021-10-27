@@ -5,7 +5,7 @@ import {fadeIn} from 'react-animations';
 const Bounce = styled.div`animation:300ms ${keyframes`${fadeIn}`}`;
 
 const PortfolioModel = ({Payload,hideDetailItem}) => {
-    const {image,name,des,Github2,heroku} = Payload;
+    const {image,name,des,Github2,heroku, Drive} = Payload;
     const hideDetails = () => {
         const body = document.getElementsByTagName('body')[0];
         body.classList.remove('modal-open');
@@ -49,6 +49,9 @@ const PortfolioModel = ({Payload,hideDetailItem}) => {
                                     </p>
                                     <div><a className="btn btn-outline-light btn-social mx-1" href={Github2} target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-fw fa-github"></i>
+                            </a>
+                                    <a className="btn btn-outline-light btn-social mx-1" href={Drive} target="_blank" rel="noopener noreferrer">
+                                <i className="fas fa-google-drive"></i>
                             </a>
                             <a className="btn btn-outline-light btn-social mx-1" href={heroku} target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-link"></i>
